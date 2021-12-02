@@ -24,4 +24,5 @@ public class PropertiesFile {
         String value = configFile.getProperty(key);
         return value;
     }
+
 }

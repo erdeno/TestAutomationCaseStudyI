@@ -1,7 +1,7 @@
 Feature: Case Study I Tests
   Background:
     Given Homepage is open
-    And I close the pop-up
+#    And I close the pop-up
 
     @done
     Scenario: Task I Search for drone
@@ -52,6 +52,13 @@ Feature: Case Study I Tests
       And I open user dropdown menu
       And Verify user logged in
       And I logged out
+
+
+    Scenario: Task V
+      When Search for "sony tv"
+      And I click for tv size
+      And I add to cart item number 2
+      Then I verify the cart subtotal
 
 
 

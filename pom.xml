@@ -42,6 +42,20 @@
             <version>5.7.0</version>
             <scope>test</scope>
         </dependency>
+       
+        <!-- Step 1: Add Cucumber Extent Reporter library to Maven Project -->
+        <dependency>
+            <groupId>com.vimalselvam</groupId>
+            <artifactId>cucumber-extentsreport</artifactId>
+            <version>3.0.6</version>
+        </dependency>
+        
+        <!-- Add Extent Report library -->
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>3.1.2</version>
+        </dependency>
 
 
 

@@ -140,4 +140,25 @@ public class MyStepdefs {
     public void iLoggedOut() {
         homepage.logout();
     }
+
+    @And("I click for tv size")
+    public void iClickForTvSize() {
+        searchpage.clickTvSize();
+    }
+
+    @And("I add to cart item number {int}")
+    public void iAddToCartItemNumber(int num) {
+        searchpage.addToCart(num);
+    }
+
+    @And("I go to cart")
+    public void iGoToCart() {
+        searchpage.goToCart();
+    }
+
+    @Then("I verify the cart subtotal")
+    public void iVerifyTheCartSubtotal() {
+        searchpage.verifySubtotal();
+
+    }
 }
